@@ -1,0 +1,1 @@
+Builds a logger using express node that saves data about each incoming request.  The logger saves the agent, time, method, resource, version and status of every request, and it is appended to a csv file.  The server responds "ok", and then returns a JSON object with all of the contents of the log file to http://localhost:3000/logs.
